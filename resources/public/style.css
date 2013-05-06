@@ -1,0 +1,51 @@
+* { margin: 0; padding: 0; }
+
+body {
+    padding: 5px;
+}
+
+table.calendar {
+    border-collapse: collapse;
+
+    margin: auto;
+
+    width: 300px;
+    height: 300px;
+
+    font-family: Courier;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+table.calendar .dayname,
+table.calendar .weeknumber {
+    background-color: #ddd;
+}
+
+table.calendar th.monthname {
+    background-color: white;
+    color: blue;
+}
+
+table.calendar td {
+    width: 12.5%;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table.calendar td.holiday {
+    color: red;
+}
+
+table.calendar td.outsider,
+table.calendar td.passed {
+    color: #ddd;
+}
+
+table.calendar td.today {
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+
+

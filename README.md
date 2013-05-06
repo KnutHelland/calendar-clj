@@ -1,2 +1,2 @@
-calendar-clj
-============
+# ClojureScript google calendar viewer
+

@@ -12,7 +12,7 @@ if (debug_mode() > 2) {
 }
 ?>
   <head>
-    <title>Test</title>
+    <title>Kalender</title>
 
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
     <meta name="apple-mobile-web-app-capable" content="yes" />

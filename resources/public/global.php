@@ -41,8 +41,6 @@ function debug_mode($mode = null) {
 }
 
 
-
-
 /*
  * Usage logs
  */
@@ -73,7 +71,6 @@ foreach ($lines as $line) {
         break;
     }
 }
-
 
 // Write to log:
 if ($doWriteLog) {
